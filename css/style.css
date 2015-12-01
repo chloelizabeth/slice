@@ -1,4 +1,16 @@
 
+@font-face {
+    font-family: "Alamain";
+    src: url(../fonts/alamain1.ttf);
+}
+@font-face {
+    font-family: "TWCenMT";
+    src: url(../fonts/Tw Cen MT copy.ttf);
+}
+
+
+
+
 html.backdrop {
   background-color: #f6b259;
   -webkit-background-size: cover;
@@ -8,6 +20,7 @@ html.backdrop {
 }
 
 #wrapper {
+  width: 1183px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,12 +61,12 @@ div.wrapper.E {
   padding: 10px;
 }  
 
-/* draggable starts */
+/* DRAGGABLE SECTION */
 
 
 div.drag {
-  width: 1080px;
-  height: 602px;
+  width: 900px;
+  height: 750px;
   background-color: white;
   margin-top: 276px;
   margin-left: auto ;
@@ -118,3 +131,49 @@ div.drag {
 {
     visibility:  hidden;
 }
+
+/* BOTTOM SECTION */
+
+#bottom {
+  margin-top: 200px;
+  margin-right: auto;
+  text-align: center;
+}
+
+span.bottom1 {
+font-family: "TWCenMT", sans-serif;
+color: white;
+letter-spacing: .15em;
+position: relative;
+}
+
+span.bottom2 {
+z-index: 1;
+font-family: "Alamain", cursive;
+color: white;
+letter-spacing: .15em;
+position: relative;
+}
+
+span.bottom3 {
+  position: relative;
+  bottom: 150px;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+/* FOOTER */
+
+#foot h6 {
+  color: white;
+  font-family: "TWCenMT", sans-serif;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
