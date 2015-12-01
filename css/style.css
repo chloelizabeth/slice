@@ -1,0 +1,8 @@
+
+html.backdrop {
+  background-color: #f6b259;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
