@@ -6,3 +6,115 @@ html.backdrop {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.slice {
+  margin-top: 166px;
+  padding-left: 167px;
+}
+
+
+div.wrapper.S {
+  width: 177px;
+  height: 253px;
+  padding: 10px;
+}  
+
+div.wrapper.L {
+  width: 190px;
+  height: 255px;
+  padding: 10px;
+}  
+
+div.wrapper.I {
+  width: 118px;
+  height: 224px;
+  padding: 10px;
+}  
+
+div.wrapper.C {
+  width: 193px;
+  height: 257px;
+  padding: 10px;
+}  
+
+div.wrapper.E {
+  width: 163px;
+  height: 199px;
+  padding: 10px;
+}  
+
+/* draggable starts */
+
+
+div.drag {
+  width: 1080px;
+  height: 602px;
+  background-color: white;
+  margin-top: 276px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 10px;
+}
+
+.draggable
+{
+    position: relative; 
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;   
+
+    cursor: hand; 
+    cursor: pointer;       
+}
+
+.resizable
+{
+    width: 100px;     
+}
+.resizable img
+{
+    width: 100%;   
+}
+
+.ui-resizable-handle 
+{
+    background: #ccc;
+    width: 9px;
+    height: 9px;
+    
+    z-index: 2;
+}
+.ui-resizable-se
+{
+    right: -5px;
+    bottom: -5px;
+}
+
+.ui-rotatable-handle 
+{
+    background: #f5dc58;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    
+    height:        10px;
+    left:          50%;
+    margin:        0 0 0 -5px;
+    position:      absolute;
+    top:           -5px;
+    width:         10px;
+}
+.ui-rotatable-handle.ui-draggable-dragging
+{
+    visibility:  hidden;
+}
