@@ -27,7 +27,7 @@ html.backdrop {
 
 div.slice {
   margin-top: 166px;
-  padding-left: 167px;
+  padding-left: 120px;
 }
 
 
@@ -59,13 +59,17 @@ div.wrapper.E {
   width: 163px;
   height: 199px;
   padding: 10px;
-}  
+} 
+
+div.slice img {
+  padding: 10px;
+} 
 
 /* DRAGGABLE SECTION */
 
 
 div.drag {
-  width: 900px;
+  width: 950px;
   height: 750px;
   background-color: white;
   margin-top: 276px;
@@ -159,7 +163,7 @@ span.bottom3 {
   position: relative;
   bottom: 150px;
   z-index: -1;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* FOOTER */

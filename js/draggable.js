@@ -1,14 +1,13 @@
-$(function(){
+$(function() {
 
 
+  $('.draggable').draggable();
 
-$('.draggable').draggable();
+  $('.resizable').resizable({
+      aspectRatio: true,
+      handles: 'ne, se, sw, nw'
+  });
 
-$('.resizable').resizable({
-    aspectRatio: true,
-    handles: 'ne, se, sw, nw'
-});
-
-$('.resizable').parent().rotatable();
+  //$('.resizable').parent().rotatable();
 
 });

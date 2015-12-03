@@ -3,31 +3,32 @@
 <head>
   <meta chatset="UTF-8">
   <title>Slice - Build your own collage</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 </head>
-
+<body>
 <header>
   <div id="wrapper">
     <div class="slice">
-      <container class="S"
+      <container class="S" class="shadow"
         <a href="#"><img src="images/S.jpg" onmouseover="this.src='images/flower.png'" onmouseout="this.src='images/S.jpg'" /></a>
       </container>
 
-      <container class="L"
+      <container class="L" class="shadow"
         <a href="#"><img src="images/L.jpg" onmouseover="this.src='images/LadyL.png'" onmouseout="this.src='images/L.jpg'" /></a>
       </container>
 
-       <container class="I"
+       <container class="I" class="shadow"
         <a href="#"><img src="images/I.jpg" onmouseover="this.src='images/LadyI.png'" onmouseout="this.src='images/I.jpg'" /></a>
       </container>
-
-       <container class="C"
+ 
+       <container class="C" class="shadow"
         <a href="#"><img src="images/C.jpg" onmouseover="this.src='images/LadyC.png'" onmouseout="this.src='images/C.jpg'" /></a>
       </container>
 
-       <container class="E"
+       <container class="E" class="shadow"
         <a href="#"><img src="images/E.jpg" onmouseover="this.src='images/LadyE.png'" onmouseout="this.src='images/E.jpg'" /></a>
       </container>
    </div>   <!-- end of slice -->
@@ -36,25 +37,54 @@
 
 
     <div class="drag">
+
       <div class="draggable">
-    <div class="rotatable">
-        <div class="resizable">
+        <div class="rotatable">
+          <div class="resizable">
             <img src="images/flower.png" alt="" />
-            <img src="images/LadyL.png" alt="" />
-            <img src="images/LadyI.png" alt="" />
-            <img src="images/LadyC.png" alt="" />
-            <img src="images/LadyE.png" alt="" />
+           </div>
         </div>
-    </div>
-    </div>
+      </div>
+      
+      <div class="draggable">
+        <div class="rotatable">
+          <div class="resizable">
+            <img src="images/LadyL.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="draggable">
+        <div class="rotatable">
+          <div class="resizable">
+            <img src="images/LadyI.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="draggable">
+        <div class="rotatable">
+          <div class="resizable">            
+            <img src="images/LadyC.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+     <div class="draggable">
+        <div class="rotatable">
+          <div class="resizable">
+            <img src="images/LadyE.png" alt="" />
+          </div>
+        </div>
+      </div>
 
   </div>
 
 
 <div id="bottom">
   <span class="bottom1">
-  <h3>Take a screenshot of your collage</h3></span>
-  <span class="bottom2"><h3>and share<h3></span>
+  <h5>Take a screenshot of your collage</h5></span>
+  <span class="bottom2"><h5>and share<h5></span>
   <span class="bottom3"><img src="images/flowerhide.png" width="300px" /></span>
 </div>
 
@@ -68,8 +98,9 @@
 </div> <!-- end of wrapper -->  
   
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="js/draggable.js"></script>
-
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/draggable.js"></script>
+</body>
 
 
 </html>
