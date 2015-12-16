@@ -132,7 +132,7 @@ div.drag {
 
 .draggable
 {
-    position: relative; 
+    position: absolute; 
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
