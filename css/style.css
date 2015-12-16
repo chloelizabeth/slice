@@ -4,15 +4,21 @@
     src: url(../fonts/alamain1.ttf);
 }
 @font-face {
-    font-family: "TWCenMT";
-    src: url(../fonts/Tw Cen MT copy.ttf);
+    font-family: "Bodoni";
+    src: url(../fonts/BodoniXT.ttf);
 }
 
 
 
 
 html.backdrop {
-  background-color: #f6b259;
+background-repeat: no-repeat;
+background: #ffd8d9; /* Old browsers */
+background: -moz-linear-gradient(top, #ffd8d9 0%, #fab964 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffd8d9 0%,#fab964 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffd8d9 0%,#fab964 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8d9', endColorstr='#fab964',GradientType=0 ); /* IE6-9 */
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,10 +38,6 @@ body {
   display: block;
 }
 
-html, body {
-  height: 100%;
-}
-
 
 div.slice {
   width: 1000px;
@@ -45,12 +47,14 @@ div.slice {
   margin-right: auto ;
   padding: 10px;
   margin-top: 250px;
+
 }
 
 
 div.wrapper.S {
   width: 177px;
   height: 253px;
+
 }  
 
 div.wrapper.L {
@@ -99,13 +103,16 @@ div.slice img {
 /* DRAGGABLE SECTION */
 
 #containment-wrapper {
-  width: 1000px;
-  height: 750px;
-  background-color: white;
+  width: 1178px;
+  height: 723px;
+  background: url(../images/Collage.jpg) no-repeat;
   margin-top: 400px;
   margin-left: auto ;
   margin-right: auto ;
   padding: 10px;
+  -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+  box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
 }
 
 
@@ -193,10 +200,12 @@ div.drag {
 }
 
 span.bottom1 {
-font-family: "TWCenMT", sans-serif;
+font-family: 'Old Standard TT', serif;
 color: white;
 letter-spacing: .15em;
 position: relative;
+font-size: 40px;
+font-weight: 100;
 }
 
 span.bottom2 {
@@ -205,24 +214,24 @@ font-family: "Alamain", cursive;
 color: white;
 letter-spacing: .15em;
 position: relative;
+font-size: 30px;
 }
 
 span.bottom3 {
   position: relative;
-  bottom: 150px;
+  bottom: 225px;
   z-index: -1;
-  opacity: 0.8;
 }
 
 /* FOOTER */
 
-#foot h6 {
-  color: white;
-  font-family: "TWCenMT", sans-serif;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  
+
+.ceb {
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
+
 
 
 
