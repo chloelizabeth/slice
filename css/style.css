@@ -20,53 +20,93 @@ html.backdrop {
 }
 
 #wrapper {
-  width: 1183px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  margin-left: auto ;
+  margin-right: auto ;
+  min-height: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+html, body {
+  height: 100%;
 }
 
 
 div.slice {
-  margin-top: 166px;
-  padding-left: 120px;
+  width: 1000px;
+  height: 300px;
+  margin-top: 400px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 10px;
+  margin-top: 250px;
 }
 
 
 div.wrapper.S {
   width: 177px;
   height: 253px;
-  padding: 10px;
 }  
 
 div.wrapper.L {
   width: 190px;
   height: 255px;
-  padding: 10px;
 }  
 
 div.wrapper.I {
   width: 118px;
   height: 224px;
-  padding: 10px;
 }  
 
 div.wrapper.C {
   width: 193px;
   height: 257px;
-  padding: 10px;
 }  
 
 div.wrapper.E {
   width: 163px;
   height: 199px;
-  padding: 10px;
 } 
 
+.S img {
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.L img {
+  padding-right: 20px;
+}
+
+.I img {
+  padding-right: 20px;
+}
+
+.C img {
+  padding-right: 20px;
+}
+
 div.slice img {
-  padding: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 /* DRAGGABLE SECTION */
+
+#containment-wrapper {
+  width: 1000px;
+  height: 750px;
+  background-color: white;
+  margin-top: 400px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 10px;
+}
 
 
 div.drag {
@@ -77,6 +117,10 @@ div.drag {
   margin-left: auto ;
   margin-right: auto ;
   padding: 10px;
+}
+
+.collage1, .collage2, .collage3 {
+  z-index: 0;
 }
 
 .draggable
@@ -92,21 +136,24 @@ div.drag {
     cursor: pointer;       
 }
 
+.top {z-index: 2; position: relative}
+
+.bottom {z-index: 1; position: relative}
+
 .resizable
 {
     width: 100px;     
 }
 .resizable img
 {
-    width: 100%;   
+    width: 100%; 
 }
 
-.ui-resizable-handle 
+.ui-resizable-handle
 {
     background: #ccc;
-    width: 9px;
-    height: 9px;
-    
+    width: 11px;
+    height: 11px;
     z-index: 2;
 }
 .ui-resizable-se
@@ -174,6 +221,7 @@ span.bottom3 {
   font-family: "TWCenMT", sans-serif;
   padding-bottom: 20px;
   padding-left: 30px;
+  
 }
 
 
