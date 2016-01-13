@@ -180,7 +180,7 @@ div.drag {
 
 .ui-resizable-handle
 {
-    background: #eee;
+    background: #ccc;
     width: 11px;
     height: 11px;
     z-index: 2;
