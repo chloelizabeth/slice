@@ -8,6 +8,10 @@
     src: url(../fonts/BodoniXT.ttf);
 }
 
+@font-face {
+    font-family: "Didot";
+    src: url(../fonts/Didot.ttf);
+}
 
 
 
@@ -105,12 +109,23 @@ div.slice img {
     margin-right: auto;
 } 
 
+
+
+div.build {
+  text-align: center;
+  font-family: "Didot", Arial;
+  color: #000;
+  padding-top: 79px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
 /* DRAGGABLE SECTION */
 
 #containment-wrapper {
-  width: 1178px;
-  height: 723px;
-  background: url(../images/Collage.jpg) no-repeat;
+  width: 1067px;
+  height: 655px;
+  background: url(../images/Collage2.jpg) no-repeat;
   margin-top: 400px;
   margin-left: auto ;
   margin-right: auto ;
@@ -118,12 +133,13 @@ div.slice img {
   -webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
   -moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
   box-shadow: 0px 0px 20px -4px rgba(0,0,0,1);
+  position: relative;
 }
 
 
 div.drag {
   width: 950px;
-  height: 750px;
+  height: 655px;
   background-color: white;
   margin-top: 276px;
   margin-left: auto ;
@@ -158,12 +174,13 @@ div.drag {
 }
 .resizable img
 {
-    width: 100%; 
+    width: 100%;
+ 
 }
 
 .ui-resizable-handle
 {
-    background: #ccc;
+    background: #eee;
     width: 11px;
     height: 11px;
     z-index: 2;
@@ -199,18 +216,18 @@ div.drag {
 /* BOTTOM SECTION */
 
 #bottom {
-  margin-top: 200px;
+  margin-top: 191px;
   margin-right: auto;
   text-align: center;
 }
 
 span.bottom1 {
-font-family: 'Old Standard TT', serif;
+font-family: "Didot", serif;
 color: white;
-letter-spacing: .15em;
+letter-spacing: 0.5em;
 position: relative;
-font-size: 40px;
-font-weight: 100;
+font-size: 20px;
+text-transform: uppercase;
 }
 
 span.bottom2 {
@@ -219,18 +236,24 @@ font-family: "Alamain", cursive;
 color: white;
 letter-spacing: .15em;
 position: relative;
-font-size: 30px;
+font-size: 28px;
+
 }
 
 span.bottom3 {
   position: relative;
-  bottom: 225px;
+  bottom: 234px;
   z-index: -1;
+  left: -14px;
 }
 
 /* FOOTER */
 
 
+footer {
+  position: relative;
+  bottom: 20px
+}
 .ceb {
   float: right;
   margin-right: 15px;
@@ -238,7 +261,33 @@ span.bottom3 {
 }
 
 
+/* MEDIA QUERIES */
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { /* chrome */
+
+html{
+
+position: relative;
+
+}
+
+} @-moz-document url-prefix() { /* firefox */
+
+body{
+
+position: relative; overflow: auto;
+
+}
+
+} @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { /* ie10+ */
+
+body{
+
+position: relative; overflow: auto;
+
+}
+
+}
 
 
 

@@ -2,7 +2,7 @@ $(function() {
 
 
  var a = 10;
-    $('.collage1,.collage2,.collage3,.collage4,.collage5,.collage6').draggable({
+    $('.collage1,.collage2,.collage3,.collage4,.collage5,.collage6,.collage7,.collage8,.collage9,.collage10,.collage11').draggable({
    start: function(event, ui) { $(this).css("z-index", a++); }
 });
     $('#containment-wrapper').click(function() {
@@ -10,11 +10,14 @@ $(function() {
         $(this).siblings().removeClass('top').addClass('bottom');
         $(this).css("z-index", a++);
 
+
     });
 
 
 
- $('.draggable').draggable();
+ $('.draggable').draggable({
+
+ });
 
   $('.resizable').resizable({
       aspectRatio: true,
@@ -27,12 +30,11 @@ $(function() {
 
 
 
-$('.draggable').draggable({ containment: "#containment-wrapper", scroll: false });
+$('.draggable').draggable({ containment: "parent", scroll: false });
 
  $( ".resizable" ).resizable({
-      containment: "#containment-wrapper", scroll: false
+      containment: "parent", scroll: false
     });
-
 
 
 
