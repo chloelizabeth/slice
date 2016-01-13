@@ -17,11 +17,12 @@
 
 html.backdrop {
 background-repeat: no-repeat;
-background: #ffd8d9; /* Old browsers */
-background: -moz-linear-gradient(top, #ffd8d9 0%, #fab964 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ffd8d9 0%,#fab964 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ffd8d9 0%,#fab964 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8d9', endColorstr='#fab964',GradientType=0 ); /* IE6-9 */
+background: #ffd7d6; /* Old browsers */
+background: -moz-linear-gradient(top, #ffd7d6 0%, #e59b57 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffd7d6 0%,#e59b57 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffd7d6 0%,#e59b57 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd7d6', endColorstr='#e59b57',GradientType=0 ); /* IE6-9 */
+
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -87,20 +88,19 @@ div.wrapper.E {
 } 
 
 .S img {
-  padding-right: 20px;
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .L img {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .I img {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .C img {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 div.slice img {
