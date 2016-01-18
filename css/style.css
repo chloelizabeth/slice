@@ -49,7 +49,7 @@ html, body {position: relative}
 
 
 div.slice {
-  width: 1000px;
+  width: 979px;
   height: 300px;
   margin-top: 400px;
   margin-left: auto ;
@@ -219,6 +219,7 @@ div.drag {
   margin-top: 191px;
   margin-right: auto;
   text-align: center;
+  height: auto;
 }
 
 span.bottom1 {
@@ -286,6 +287,80 @@ body{
 position: relative; overflow: auto;
 
 }
+
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  #bottom {
+    width: 1087px;
+  }  
+
+  #wrapper {
+    width: 111%;
+  }  
+
+}
+
+
+/* ----------- iPhone 6 and 6S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  #bottom {
+    width: 1087px;
+  }  
+
+  #wrapper {
+    width: 111%;
+  }
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #bottom {
+    width: 1087px;
+  }  
+
+  #wrapper {
+    width: 111%;
+  }  
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+   #bottom {
+    width: 1087px;
+  }  
+
+  #wrapper {
+    width: 111%;
+  }   
 
 }
 
